@@ -5,7 +5,7 @@ class Fila:
             self.fila.append(n)
         def excluir(self):
             if not self.vazia():
-                return self.fila.pop(0)
+                return self.fila.pop(0) 
         def tamanho(self):
             return len(self.fila)
         def vazia(self):
